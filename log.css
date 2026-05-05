@@ -1,0 +1,160 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: rgb(15, 0, 41);
+}
+fieldset {
+  border: 2px solid crimson;
+  border-radius: 75px;
+  width: 400px;
+  height: 370px;
+  background-color: antiquewhite;
+  color: rgb(0, 30, 255);
+}
+form {
+  text-align: center;
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+.reset {
+  border: 2px solid blue;
+  width: 300px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: blue;
+  color: whitesmoke;
+}
+.submit {
+  border: 2px solid blue;
+  width: 300px;
+  height: 30px;
+  border-radius: 50px;
+  margin: 10px;
+  background-color: blue;
+  color: azure;
+}
+.submit:hover {
+  box-shadow:
+    3px 3px 4px rgb(255, 0, 0),
+    -3px -3px 4px rgb(221, 255, 0);
+}
+legend {
+  text-align: center;
+  border: 0.5px solid red;
+  border-radius: 100px;
+  font-size: 3em;
+  font-weight: 400;
+  background-color: rgb(0, 0, 0);
+  background: linear-gradient(90deg, green, yellow, red);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow 3s linear infinite;
+}
+fieldset:hover {
+  animation: ccc;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+}
+@keyframes ccc {
+  0% {
+    box-shadow:
+      3px 3px 4px rgb(153, 0, 255),
+      -3px -3px 4px rgb(255, 132, 0);
+    border-radius: 25px;
+    background-image: url(img/scott-lord-tQLIYGBQkh8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  25% {
+    box-shadow:
+      3px 3px 4px rgb(0, 255, 8),
+      -3px -3px 4px rgb(0, 217, 255);
+    border-radius: 50px;
+    background-image: url(img/land-o-lakes-inc-5KSXpLJRw8o-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  50% {
+    box-shadow:
+      3px 3px 4px rgb(255, 0, 234),
+      -3px -3px 4px rgb(234, 255, 0);
+    border-radius: 75px;
+    background-image: url(img/Motivational\ cat\ T\ shirt\ Design\ by\ Artifacts!.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  100% {
+    box-shadow:
+      3px 3px 4px rgb(255, 0, 0),
+      -3px -3px 4px rgb(0, 68, 255);
+    border-radius: 100px;
+    background-image: url(img/tyna_janoch-jellyfish-7704804_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+body:hover {
+  animation: vvv;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+}
+@keyframes vvv {
+  0% {
+    background-image: url(img/land-o-lakes-inc-5KSXpLJRw8o-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  25% {
+    background-image: url(img/Motivational\ cat\ T\ shirt\ Design\ by\ Artifacts!.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  50% {
+    background-image: url(img/scott-lord-tQLIYGBQkh8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  75% {
+    background-image: url(img/tyna_janoch-jellyfish-7704804_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+@keyframes rainbow {
+  0% {
+    background-position: 200% 0;
+  }
+}
+#Dt{
+  border-radius: 15px;
+  background-color: black;
+  color: azure;
+}

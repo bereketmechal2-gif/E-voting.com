@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="log.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Log IN</legend>
+    <form action="">
+        <label for="user">User Name:</label><br>
+        <input type="text" placeholder="xxxxx" required style="border-radius: 50px;border: 2px solid whitesmoke"><br>
+        <label for="password">Password :</label><br>
+        <input type="password" required placeholder="12345678" style="border-radius: 50px;border: 2px solid whitesmoke;" <input type="checkbox">><br>
+        <label for="email">Email :</label><br>
+        <input type="email" required placeholder="aaaa@gmail.com" style="border-radius: 50px;border: 2px solid whitesmoke"><br>
+        <label for="gender">Gender :</label><br>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" value="female"><br>
+        <label for="Dt">Birth Date</label>
+        <input type="date" id="Dt" required placeholder="01/01/2000">
+        <label for="contery">Country</label>
+        <select name="contery" id="contery">
+            <option value="ethiopia">Ethopia</option>
+            <option value="england">England</option>
+            <option value="usa">USA</option>
+        </select><br>
+       <p> <input type="checkbox" id="term">I already agreed to <a href="">Terms</a> and <a href="">Condion</a></p>
+        <input type="reset" class="reset"><br>
+       <button type="button" class="submit" onclick="goHome()">Register</button>
+    </form>
+    </fieldset>
+     <script src="log.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+body{
+font-family: Arial;
+text-align: center;
+background-image: url("img/scott-lord-tQLIYGBQkh8-unsplash.jpg") ;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+color: rgb(255, 255, 255);
+overflow: hidden;
+border-image: auto;
+}
+
+nav{
+background:#333;
+padding:20px;
+}
+
+nav a{
+color:white;
+margin: 15px;
+text-decoration:none;
+font-size: 18px;
+}
+
+nav a:hover{
+    transform: scaleY(2);
+    text-shadow: 3px 3px 4px crimson, -3px -3px 4px blueviolet;
+}
+
+form{
+background-image: url("img/tyna_janoch-jellyfish-7704804_1920.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+padding:20px;
+width:300px;
+margin:auto;
+border-radius:10px;
+color: white;
+}
+.lodIn{
+    text-decoration: none;
+    align-items: center;
+    margin-right: 1400px; ;
+}
+.lodIn button{
+    width: 80px;
+    height: 20px;
+    border-radius: 80px;
+    background: linear-gradient(
+        rgb(1, 1, 249),
+        rgb(0, 89, 255),
+        rgb(0, 198, 255),
+        rgb(0, 255, 247)
+    );
+
+}
+.lodIn button:hover{
+    animation: rainbow 3s linear infinite;
+}
+@keyframes rainbow{
+    0%{
+        background-position: 200% 0;
+    }
+}
