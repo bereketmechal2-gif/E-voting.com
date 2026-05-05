@@ -158,3 +158,15 @@ body:hover {
   background-color: black;
   color: azure;
 }
+select{
+  border-radius: 15px;
+  background-color: bisque;
+  color: black;
+}
+option:active{
+    background-color: rgb(255, 201, 135);
+}
+option:hover{
+    border-radius: 15px;
+    background-color: rgb(255, 201, 135);
+}

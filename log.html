@@ -11,7 +11,7 @@
         <legend>Log IN</legend>
     <form action="">
         <label for="user">User Name:</label><br>
-        <input type="text" placeholder="xxxxx" required style="border-radius: 50px;border: 2px solid whitesmoke"><br>
+        <input type="text" placeholder="xxxxx" required id="user" style="border-radius: 50px;border: 2px solid whitesmoke"><br>
         <label for="password">Password :</label><br>
         <input type="password" required placeholder="12345678" style="border-radius: 50px;border: 2px solid whitesmoke;" <input type="checkbox">><br>
         <label for="email">Email :</label><br>
@@ -23,16 +23,16 @@
         <input type="radio" name="gender" value="female"><br>
         <label for="Dt">Birth Date</label>
         <input type="date" id="Dt" required placeholder="01/01/2000">
-        <label for="contery">Country</label>
+        <label for="contery">Department</label>
         <select name="contery" id="contery">
-            <option value="ethiopia">Ethopia</option>
-            <option value="england">England</option>
-            <option value="usa">USA</option>
+            <option value="IT">IT</option>
+            <option value="CS">CS</option>
+            <option value="Soft">Soft</option>
         </select><br>
-       <p> <input type="checkbox" id="term">I already agreed to <a href="">Terms</a> and <a href="">Condion</a></p>
+       <p> <input type="checkbox" id="terms">I already agreed to <a href="">Terms</a> and <a href="">Condion</a></p>
         <input type="reset" class="reset"><br>
        <button type="button" class="submit" onclick="goHome()">Register</button>
-    </form>
+    </form> 
     </fieldset>
      <script src="log.js"></script>
 </body>

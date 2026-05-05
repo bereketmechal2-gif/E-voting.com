@@ -16,11 +16,10 @@ function goHome() {
   const birthDate = new Date(dob);
   let age = today.getFullYear() - birthDate.getFullYear();
   const monthDiff = today.getMonth() - birthDate.getMonth();
-  if (
-    monthDiff < 0 ||
-    (monthDiff === 0 && today.getDate() < birthDate.getDate())
-  ) {
-    age--;
+  if (age < 18) {
+    alert("Your are under age");
+    return;
+    //age--;
   }
   localStorage.setItem("loggedIn", "true");
   localStorage.setItem("username", user);
