@@ -92,12 +92,13 @@ fieldset:hover {
       3px 3px 4px rgb(255, 0, 234),
       -3px -3px 4px rgb(234, 255, 0);
     border-radius: 75px;
-    background-image: url(img/Motivational\ cat\ T\ shirt\ Design\ by\ Artifacts!.jpeg);
+    background-image: url();
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
   }
+  
   100% {
     box-shadow:
       3px 3px 4px rgb(255, 0, 0),

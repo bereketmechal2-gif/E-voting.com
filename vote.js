@@ -21,3 +21,15 @@ document.getElementById("voteForm").addEventListener("submit", function (e) {
 
   alert("Vote submitted successfully!");
 });
+const username = localStorage.getItem("username");
+const hasVoted = localStorage.getItem("voted_" + username);
+
+if (hasVoted === "true") {
+    let form = document.getElementById("voteForm");
+    form.style.pointerEvents = "none";
+    form.style.opacity = "0.4";
+    let msg = document.createElement("p");
+    msg.textContent = "You have already voted. Thank you!";
+    msg.style.color = "lime";
+    form.before(msg);
+}
