@@ -6,46 +6,44 @@
 </head>
 
 <body>
-
+    <div id="authArea" ></div>
 <nav>
 <a href="home1.html">Home</a>
 <a href="about.html">About</a>
 <a href="vote.html">Vote</a>
 <a href="result.html">Results</a>
+<script src="home1.js"></script>
 </nav>
 
 <h2>Cast Your Vote</h2>
 
 <form id="voteForm">
+  <input type="text" id="voterId" required placeholder="Enter Your Voter ID">
 
-
-<input type="text" id="name" required placeholder="Name">
-
-<h3>Select Candidate</h3>
-<div class="dis">
-<div class="io">
-    <img src="img/overlay-image (2).jpg" alt="">
-<input type="radio" name="candidate" value="A">Binyam A<br>
-</div>
-<div class="io">
-    <img src="img/overlay-image (2).jpg" alt="">
-<input type="radio" name="candidate" value="B">Bereket A<br>
-</div>
-<div class="io">
-    <img src="img/overlay-image (2).jpg" alt="">
-<input type="radio" name="candidate" value="C">Berekrt M<br><br>
-</div>
-<div class="io">
-    <img src="img/overlay-image (1).jpg" alt="">
-<input type="radio" name="candidate" value="D">Kebedech D<br><br>
-</div>
-</div>
-<br>
-<button type="submit">Submit Vote</button>
-
+  <h3>Select Candidate</h3>
+  <div class="dis">
+    <div class="io">
+      <img src="img/overlay-image (2).jpg" alt="">
+      <input type="radio" name="candidate" value="A">Binyam A<br>
+    </div>
+    <div class="io">
+      <img src="img/overlay-image (2).jpg" alt="">
+      <input type="radio" name="candidate" value="B">Bereket A<br>
+    </div>
+    <div class="io">
+      <img src="img/overlay-image (2).jpg" alt="">
+      <input type="radio" name="candidate" value="C">Bereket M<br>
+    </div>
+    <div class="io">
+      <img src="img/overlay-image (1).jpg" alt="">
+      <input type="radio" name="candidate" value="D">Kebedech D<br>
+    </div>
+  </div>
+  <br>
+  <button type="submit">Submit Vote</button>
 </form>
 
-<script src="vote.js"></script>
 
+<script src="vote.js"></script>
 </body>
 </html>

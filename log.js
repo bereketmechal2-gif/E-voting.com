@@ -21,8 +21,11 @@ function goHome() {
     return;
     //age--;
   }
+  const voterId = Math.floor(100000 + Math.random() * 900000);
   localStorage.setItem("loggedIn", "true");
   localStorage.setItem("username", user);
   localStorage.setItem("userAge", age);
+  localStorage.setItem("voterId", voterId);
+  localStorage.setItem("username", user);
   window.location.href = "home1.html";
 }
