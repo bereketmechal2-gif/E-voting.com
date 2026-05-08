@@ -11,11 +11,13 @@ document.getElementById("voteForm").addEventListener("submit", function (e) {
     A: 0,
     B: 0,
     C: 0,
+    D: 0,
   };
 
   if (candidate.value === "A") votes.A++;
   if (candidate.value === "B") votes.B++;
   if (candidate.value === "C") votes.C++;
+  if (candidate.value === "D") votes.D++;
 
   localStorage.setItem("votes", JSON.stringify(votes));
 
