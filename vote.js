@@ -1,58 +1,6 @@
 const storedId = localStorage.getItem("voterId");
 const username = localStorage.getItem("username");
 const hasVoted = localStorage.getItem("voted_" + username);
-
-window.onload = function () {
-  if (hasVoted === "true") {
-    let form = document.getElementById("voteForm");
-    form.style.pointerEvents = "none";
-    form.style.opacity = "0.4";
-
-    let msg = document.createElement("p");
-    msg.textContent = "✅ You have already voted. Thank you!";
-    msg.style.color = "lime";
-    msg.style.fontSize = "20px";
-    form.before(msg);
-  }
-};
-const storedId = localStorage.getItem("voterId");
-const username = localStorage.getItem("username");
-const hasVoted = localStorage.getItem("voted_" + username);
-
-window.onload = function () {
-  if (hasVoted === "true") {
-    let form = document.getElementById("voteForm");
-    form.style.pointerEvents = "none";
-    form.style.opacity = "0.4";
-
-    let msg = document.createElement("p");
-    msg.textContent = "✅ You have already voted. Thank you!";
-    msg.style.color = "lime";
-    msg.style.fontSize = "20px";
-    form.before(msg);
-  }
-};
-const storedId = localStorage.getItem("voterId");
-const username = localStorage.getItem("username");
-const hasVoted = localStorage.getItem("voted_" + username);
-
-window.onload = function () {
-  if (hasVoted === "true") {
-    let form = document.getElementById("voteForm");
-    form.style.pointerEvents = "none";
-    form.style.opacity = "0.4";
-
-    let msg = document.createElement("p");
-    msg.textContent = "✅ You have already voted. Thank you!";
-    msg.style.color = "lime";
-    msg.style.fontSize = "20px";
-    form.before(msg);
-  }
-};
-const storedId = localStorage.getItem("voterId");
-const username = localStorage.getItem("username");
-const hasVoted = localStorage.getItem("voted_" + username);
-
 window.onload = function () {
   if (hasVoted === "true") {
     let form = document.getElementById("voteForm");

@@ -26,6 +26,5 @@ function goHome() {
   localStorage.setItem("username", user);
   localStorage.setItem("userAge", age);
   localStorage.setItem("voterId", voterId);
-  localStorage.setItem("username", user);
   window.location.href = "home1.html";
 }

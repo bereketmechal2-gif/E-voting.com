@@ -1,92 +1,114 @@
-body{
-font-family: Arial;
-text-align: center;
-background-image: url("img/scott-lord-tQLIYGBQkh8-unsplash.jpg") ;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-background-attachment: fixed;
-color: rgb(255, 255, 255);
-overflow: hidden;
-border-image: auto;
+body {
+  font-family: Arial;
+  text-align: center;
+  background-image: url("img/scott-lord-tQLIYGBQkh8-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  border-image: auto;
+}
+nav {
+  background: #333;
+  padding: 20px;
 }
 
-nav{
-background:#333;
-padding:20px;
+nav a {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
 }
 
-nav a{
-color:white;
-margin: 15px;
-text-decoration:none;
-font-size: 18px;
-transition: 0.3s;
+nav a:hover {
+  text-shadow:
+    3px 3px 4px crimson,
+    -3px -3px 4px blueviolet;
 }
 
-nav a:hover{
-    text-shadow: 3px 3px 4px crimson, -3px -3px 4px blueviolet;
+form {
+  background-image: url("img/tyna_janoch-jellyfish-7704804_1920.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 80%;
+  max-width: 900px;
+  margin: 30px auto;
+  border-radius: 10px;
+  color: white;
 }
-
-form{
-background-image: url("img/tyna_janoch-jellyfish-7704804_1920.jpg");
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-background-attachment: fixed;
-width: 80%;
-max-width: 900px;
-margin:30px auto;
-border-radius:10px;
-color: white;
+form button {
+  margin-top: 50px;
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: aqua;
+  color: rgb(26, 0, 0);
+  box-shadow: 4px 4px 5px black;
+  text-shadow: 3px 3px 4px whitesmoke;
 }
-form button{
-    margin-top: 50px;
+form button:hover {
+  text-transform: uppercase;
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  box-shadow: 4px 4px 5px rgb(255, 0, 0) , -4px -4px 5px rgb(132, 0, 255);
+  text-shadow: 3px 3px 4px rgb(4, 255, 0);
 }
-.dis{
-display: flex;
-gap: 3px;
-justify-content: space-evenly;
-}
-.lodIn{
-    text-decoration: none;
-    align-items: center;
-    margin-right: 1400px; ;
-}
-.lodIn button{
-    width: 80px;
-    height: 20px;
-    border-radius: 80px;
-    background: linear-gradient(
-        rgb(1, 1, 249),
-        rgb(0, 89, 255),
-        rgb(0, 198, 255),
-        rgb(0, 255, 247)
-    );
-
-}
-.lodIn button:hover{
-    animation: rainbow 3s linear infinite;
-}
-@keyframes rainbow{
-    0%{
-        background-position: 200% 0;
-    }
-}
-.io{
-    width: 100px;
-    height: 120px;
-    border: 2px solid black;
-}
-.io img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+#voterId{
+    border: 2px solid aqua;
+    border-radius: 15px;
     
 }
-.io :hover{
-    border-radius: 10px;
-    border: 2px solid crimson;
-    box-shadow: 3px 3px 4px red , -3px -3px 4px blue;
-    text-shadow:3px 3px 4px rgb(55, 255, 0) , -3px -3px 4px rgb(0, 132, 255) ;
+.dis {
+  display: flex;
+  gap: 3px;
+  justify-content: space-evenly;
+}
+.lodIn {
+  text-decoration: none;
+  align-items: center;
+  margin-right: 1400px;
+}
+.lodIn button {
+  width: 80px;
+  height: 20px;
+  border-radius: 80px;
+  background: linear-gradient(
+    rgb(1, 1, 249),
+    rgb(0, 89, 255),
+    rgb(0, 198, 255),
+    rgb(0, 255, 247)
+  );
+}
+.lodIn button:hover {
+  animation: rainbow 3s linear infinite;
+}
+@keyframes rainbow {
+  0% {
+    background-position: 200% 0;
+  }
+}
+.io {
+  width: 100px;
+  height: 120px;
+  border: 2px solid black;
+}
+.io img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.io :hover {
+  border-radius: 10px;
+  border: 2px solid crimson;
+  box-shadow:
+    3px 3px 4px red,
+    -3px -3px 4px blue;
+  text-shadow:
+    3px 3px 4px rgb(55, 255, 0),
+    -3px -3px 4px rgb(0, 132, 255);
 }
