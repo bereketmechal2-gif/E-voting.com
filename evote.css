@@ -10,6 +10,15 @@ body {
   overflow: hidden;
   border-image: auto;
 }
+.V {
+  background-image: url("img/329f36d7fc51c9768c863867120085fc.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+  overflow: hidden;
+  border-image: auto;
+}
 nav {
   background: #333;
   padding: 20px;
@@ -24,13 +33,14 @@ nav a {
 }
 
 nav a:hover {
+  text-transform: scale(5, 5);
   text-shadow:
     3px 3px 4px crimson,
     -3px -3px 4px blueviolet;
 }
 
 form {
-  background-image: url("img/tyna_janoch-jellyfish-7704804_1920.jpg");
+  background: transparent;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -39,7 +49,7 @@ form {
   max-width: 900px;
   margin: 30px auto;
   border-radius: 10px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 form button {
   margin-top: 50px;
@@ -55,13 +65,14 @@ form button:hover {
   text-transform: uppercase;
   background-color: rgb(255, 0, 0);
   color: rgb(255, 255, 255);
-  box-shadow: 4px 4px 5px rgb(255, 0, 0) , -4px -4px 5px rgb(132, 0, 255);
+  box-shadow:
+    4px 4px 5px rgb(255, 0, 0),
+    -4px -4px 5px rgb(132, 0, 255);
   text-shadow: 3px 3px 4px rgb(4, 255, 0);
 }
-#voterId{
-    border: 2px solid aqua;
-    border-radius: 15px;
-    
+#voterId {
+  border: 2px solid aqua;
+  border-radius: 15px;
 }
 .dis {
   display: flex;
@@ -102,13 +113,32 @@ form button:hover {
   height: 100%;
   object-fit: cover;
 }
-.io :hover {
+.io:hover {
+  transform: scale(1.5, 1.5);
   border-radius: 10px;
   border: 2px solid crimson;
   box-shadow:
     3px 3px 4px red,
     -3px -3px 4px blue;
   text-shadow:
-    3px 3px 4px rgb(55, 255, 0),
-    -3px -3px 4px rgb(0, 132, 255);
+    3px 3px 4px rgb(255, 0, 0),
+    -3px -3px 4px rgb(68, 0, 97);
+}
+.io:active {
+  border-radius: 15px;
+  border: 2px solid rgb(26, 255, 0);
+  box-shadow:
+    3px 3px 4px rgb(0, 255, 17),
+    -3px -3px 4px rgb(0, 255, 34);
+  color: rgb(8, 168, 0);
+}
+.ior {
+  width: 100px;
+  height: 120px;
+  border: 2px solid black;
+}
+.ior img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

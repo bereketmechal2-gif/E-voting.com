@@ -7,7 +7,6 @@ if (loggedIn === "true" && username) {
   authArea.innerHTML = `
     <div style="position:relative; display:inline-block; margin:10px;">
       
-      <!-- The Circle -->
       <div onclick="toggleMenu()" style="
         width:45px; height:45px; background:crimson; border-radius:50%;
         display:flex; align-items:center; justify-content:center;
