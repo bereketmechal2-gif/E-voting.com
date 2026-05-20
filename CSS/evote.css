@@ -19,6 +19,57 @@ body {
   overflow: hidden;
   border-image: auto;
 }
+.result{
+  
+  animation: resultimg 10s ease-in-out infinite alternate-reverse ;
+}
+@keyframes resultimg{
+  0%{
+  background-image: url("img/d0c0a04e02e84404a365c3e5d23a9e7c.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  border-image: auto;
+  }
+  25%{
+    background-image: url("img/54a8ede46655dbb62f1779833183bad8.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  border-image: auto;
+  }
+  50%{
+    background-image: url("img/52f3111e8f4a4ecdaaaed339fa2fd0f3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  border-image: auto;
+  }
+  75%{
+    background-image: url("img/9fcbeca0cfec688f86caae112fd5393f.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  border-image: auto;
+  }
+  100%{
+    background-image: url("img/5c349d06803e80d9d5521f47213289f2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  border-image: auto;
+  }
+}
 nav {
   background: #333;
   padding: 20px;
@@ -107,6 +158,7 @@ form button:hover {
   width: 100px;
   height: 120px;
   border: 2px solid black;
+  color: #333;
 }
 .io img {
   width: 100%;
@@ -135,10 +187,16 @@ form button:hover {
 .ior {
   width: 100px;
   height: 120px;
-  border: 2px solid black;
+  border: none;
+  border-radius: 50px;
+  transform: scale(1.5, 1.5);
+  border-radius: 25px;
+  
+  color: rgb(0, 213, 255);
 }
 .ior img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 50px;
 }
